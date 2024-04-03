@@ -1,0 +1,25 @@
+site_name: JavaFx Tutorial
+theme:
+  name: material
+  features:
+    - content.code.copy
+    - navigation.footer
+  icon:
+    admonition:
+      <type>: material/alert 
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - def_list
+  - pymdownx.keys
+  - tables
+  - admonition
+  - pymdownx.details
+  - pymdownx.tasklist:
+      custom_checkbox: true
